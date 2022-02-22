@@ -12,6 +12,7 @@ Assumptions:-
     *. If the user enters the same character which was already guessed, then the state of the game will remain same and there will not be any warning given to the user.
     *. The user is asked everytime, if he wants to play again or not. If the user enters any character other than "y" or "Y", then the program will terminate.
     *. There will not be any prompt when user will enter more characters than the number of words in the expecped word. However, the life of be reduced accordingly.
+    *. All the words in the txt file should be present on different lines. The program is sensitive to whitespaces but not blank lines. Also, the txt file should not have any Ctrl+M character(Which is placed automatically when words are pasted in Windows system).
 
 Rules:
     *. When the game starts, a word is chosen randomly by the computer. The player is expected to guess the words.
