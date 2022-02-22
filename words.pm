@@ -14,8 +14,11 @@ sub construct
     while ($word = <$WordFile>)
     {
         chomp $word;
-        push (@wordArray,$word);
-        $wordLength++;
+        if (length($word)!=0)
+        {
+        	push (@wordArray,$word);
+        	$wordLength++;
+        }
     }
     bless $self, $class;
     return $self;
